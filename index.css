@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Diatype;
+    src: url(fonts/abc-diatype-medium.otf);
+    font-weight: medium;
+  }
+
+body {
+    background-color: white;
+    margin: 10;
+    padding: 0;
+}
+
+p {
+    font-family: Diatype;
+    font-weight: medium;
+    text-align: left;
+    font-size: 12px;
+    line-height: 110%;
+    color: black;
+}
+
+p a {
+    text-decoration: underline;
+    color: rgba(0, 0, 0);
+    transition: 0.2s;
+}
+
+p a:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.5);
+    transition: 0.2s;
+}
+
