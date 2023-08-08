@@ -17,6 +17,8 @@ p {
     font-size: 12px;
     line-height: 110%;
     color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 p a {
